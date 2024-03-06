@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1>Запись на курсы</h1>
+    <hr>
+    <form action="" method="post" class="form-example">
+        <div class="form-example">
+          <label for="name">Имя: </label> 
+        </div>
+        <div class="pole1">
+          <input type="text" name="name" id="name" required />
+        </div>
+        <br/>
+        <div class="form-example">
+            <label>Язык программирования: </label> <br>
+              <input type="radio" id="language1" name="contact" value="C++" />
+              <label for="language1">C++</label> <br>
+          
+              <input type="radio" id="language2" name="contact" value="PHP" />
+              <label for="language2">PHP</label><br>
+          
+              <input type="radio" id="language3" name="contact" value="Python" />
+              <label for="language3">Python</label>
+        </div>
+        <br/>
+        <div class="info">
+            <Label>Дополнительная информация: </Label>
+            <div class="dopInfo">  
+              <textarea id="text" class="textarea" placeholder="Введите текст..."></textarea>
+        </div>
+        <br/>
+        <div>
+          <label for="pass">Секретное слово:</label> <br/>
+          <input type="password" id="pass" name="password" minlength="" required />
+        </div>
+        <br/>
+        <div class="button">
+          <input type="submit"  value="Отправить">
+          <input type="reset" value="Очистить">
+        </div>
+      </form>
+    </body>
+</html>
